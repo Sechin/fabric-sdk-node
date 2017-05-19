@@ -138,7 +138,7 @@ func init_marble(stub shim.ChaincodeStubInterface, args []string) (pb.Response) 
 	}
 
 	id := args[0]
-	color := "yellow" //strings.ToLower(args[1])
+	color := "black" //strings.ToLower(args[1])
 	owner_id := args[3]
 	authed_by_company := args[4]
 	size, err := strconv.Atoi(args[2])
