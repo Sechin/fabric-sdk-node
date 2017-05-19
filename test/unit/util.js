@@ -33,7 +33,7 @@ module.exports.CHAINCODE_MARBLES_PATH = 'github.com/marbles_cc';
 module.exports.END2END = {
 	channel: 'mychannel',
 	chaincodeId: 'end2end',
-	chaincodeVersion: 'v0'
+	chaincodeVersion: 'v1'
 };
 
 // directory for file based KeyValueStore
