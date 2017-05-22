@@ -32,8 +32,8 @@ module.exports.CHAINCODE_PATH = 'github.com/example_cc';
 module.exports.CHAINCODE_MARBLES_PATH = 'github.com/marbles_cc';
 module.exports.END2END = {
 	channel: 'mychannel',
-	chaincodeId: 'end3end',
-	chaincodeVersion: 'v2'
+	chaincodeId: 'end2end',
+	chaincodeVersion: 'v1'
 };
 
 // directory for file based KeyValueStore
