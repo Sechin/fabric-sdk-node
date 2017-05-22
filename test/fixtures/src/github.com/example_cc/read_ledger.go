@@ -185,12 +185,12 @@ func getHistory(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 		json.Unmarshal(historicValue, &marble)     //un stringify it aka JSON.parse()
 		if historicValue == nil {                  //marble has been deleted
 			var emptyMarble Marble
-			emptyMarble.Color="red"
+			//emptyMarble.Color="red"
 			emptyMarble.Size=16
 			tx.Value = emptyMarble                 //copy nil marble
 		} else {
 			json.Unmarshal(historicValue, &marble) //un stringify it aka JSON.parse()
-			marble.Color="red"
+			//marble.Color="red"
 			marble.Size=16
 			tx.Value = marble                      //copy marble over
 		}
